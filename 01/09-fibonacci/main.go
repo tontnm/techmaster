@@ -27,7 +27,7 @@ func printFibonacii(a, b, n int) {
 
 		a = b
 		b = sum
-		
+
 		printFibonacii(a, b, n-1)
 	}
 }
